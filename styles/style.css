@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url(menu.css);
 *{
-    --gray500: #667085;
-    --darkRed: #8E2424;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    color: var(--gray500);
+}
+:root{
+    --gray500: #667085;
+    --darkRed: #8E2424;
+    --darkBlue: #101828;
 }
 header{
     color: var(--gray500);
@@ -17,3 +21,47 @@ header{
     position: sticky;
     width: 100%;
 }
+.container{
+    height: 400px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.sobre{
+    flex-direction: column;
+    justify-content: center;
+}
+.subheading{
+    color: var(--darkRed);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}.sobre h1{
+    color: var(--darkBlue);
+    font-size: 3rem;
+    margin: 1.5rem auto;
+}.sobre p{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 800px;
+}
+.metrics{
+    text-align: left;
+}.metrics ul{
+    align-self: flex-start;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+}.metric_item{
+    max-width: 300px;
+    margin: 2rem;
+}.metrics li h1{
+   color: var(--darkRed);
+   font-size: 3.5rem;
+   line-height: 4.5rem;
+}.metrics li h3{
+    color: var(--darkBlue);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+ }

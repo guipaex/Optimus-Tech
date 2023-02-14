@@ -20,7 +20,7 @@ nav ul {
 .nav__open{
     visibility: hidden;
 }
-/*
+
 @media (max-width:600px) {
     .active{
         position: absolute;
@@ -41,4 +41,4 @@ nav ul {
         font-size: 1.1em;
         font-weight: 400;
     }
-}*/
+}
