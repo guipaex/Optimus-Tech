@@ -1,0 +1,26 @@
+.testimonials{
+    height: 500px;
+    text-align: center;
+}
+.testimonials .content{
+    background-color: var(--fadedRed);
+    padding: 4rem;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    font-size: 2.25;
+    color: var(--darkBlue);
+    font-weight: 500;
+    max-width: 60%;
+    margin: 1rem;
+}
+.quote-owner{
+    margin: 2rem;
+}.quote-owner h3{
+    margin-top: 1rem;
+    
+}
