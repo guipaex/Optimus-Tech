@@ -1,0 +1,19 @@
+.metrics{
+    text-align: left;
+    height: 300px;
+}.metric_list{
+    display: flex;
+    list-style: none;
+}.metric_item{
+    max-width: 300px;
+    margin: 2rem;
+}.metrics li h1{
+   color: var(--darkRed);
+   font-size: 3.5rem;
+   line-height: 4.5rem;
+}.metrics li h3{
+    color: var(--darkBlue);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}

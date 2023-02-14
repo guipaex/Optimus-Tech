@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url(menu.css);
+@import url(menu.css); @import url(metrics.css); 
+@import url(vagas.css); 
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 }
 :root{
     --gray500: #667085;
+    --gray200:#EAECF0;
     --darkRed: #8E2424;
     --darkBlue: #101828;
 }
@@ -22,13 +24,14 @@ header{
     width: 100%;
 }
 .container{
-    height: 400px;
     margin: auto;
-    display: flex;
+    max-width: 1280px;
     text-align: center;
     align-items: center;
 }
-.sobre{
+.about{
+    display: flex;
+    height: 400px;
     flex-direction: column;
     justify-content: center;
 }
@@ -36,32 +39,12 @@ header{
     color: var(--darkRed);
     font-size: 1rem;
     line-height: 1.5rem;
-}.sobre h1{
+}.section_title{
     color: var(--darkBlue);
     font-size: 3rem;
     margin: 1.5rem auto;
-}.sobre p{
+}.supporting_text{
     font-size: 20px;
     line-height: 30px;
     max-width: 800px;
 }
-.metrics{
-    text-align: left;
-}.metrics ul{
-    align-self: flex-start;
-    margin: 0 auto;
-    display: flex;
-    list-style: none;
-}.metric_item{
-    max-width: 300px;
-    margin: 2rem;
-}.metrics li h1{
-   color: var(--darkRed);
-   font-size: 3.5rem;
-   line-height: 4.5rem;
-}.metrics li h3{
-    color: var(--darkBlue);
-    font-weight: 500;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
- }
